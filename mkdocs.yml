@@ -1,0 +1,53 @@
+site_name: Deep Learning
+
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+markdown_extensions:
+  - pymdownx.arithmatex
+  - codehilite:
+      linenums: false
+      guess_lang: false
+      use_pygments: true
+      noclasses: true
+      pygments_style: manni
+
+theme:
+  name: 'material'
+  highlightjs: true
+  hljs_languages: [python]
+  include_homepage_in_sidebar: true
+  prev_next_buttons_location: bottom
+  navigation_depth: 4
+  titles_only: false
+  sticky_navigation: true
+  collapse_navigation: true
+
+extra:
+  analytics:
+    provider: google
+    property: UA-156178967-1
+
+
+
+nav:
+- Home: index.md
+- Deep Learning: deep_learning.md
+- Recurrent Neural Network: recurrent_neural_network.md
+- Convolutional Neural Network: convolutional_neural_network.md
+- Generative Adversarial Network: generative_adversarial_network.md
+- Transformer Network: transformer_network.md
+- Natural Language Processing: natural_language_processing.md
+- Reinforcement Learning: reinforcement_learning.md
+- Hyperparameter Tuning: hyperparameter_tuning.md
+- Graph Neural Networks: graph_neural_networks.md
+- Autoencoders: autoencoders.md
+- Large Language Models: large_language_models.md
+- Sequence-to-Sequence Models: sequence_to_sequence_models.md
+- Transfer Learning: transfer_learning.md
+- Self-Supervised Learning: self_supervised_learning.md
+- Meta-Learning: meta_learning.md
+- Explainable AI: explainable_ai.md
+- Model Interpretability: model_interpretability.md
+- Fairness in Machine Learning: fairness_in_machine_learning.md
+- Federated Learning: federated_learning.md
