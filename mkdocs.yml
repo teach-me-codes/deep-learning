@@ -37,7 +37,6 @@ nav:
 - Convolutional Neural Network: convolutional_neural_network.md
 - Generative Adversarial Network: generative_adversarial_network.md
 - Transformer Network: transformer_network.md
-- Natural Language Processing: natural_language_processing.md
 - Reinforcement Learning: reinforcement_learning.md
 - Hyperparameter Tuning: hyperparameter_tuning.md
 - Graph Neural Networks: graph_neural_networks.md
